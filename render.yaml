@@ -17,6 +17,8 @@ services:
         value: true
       - key: HASURA_GRAPHQL_UNAUTHORIZED_ROLE
         value: user
+      - key: HASURA_GRAPHQL_EXPERIMENTAL_FEATURES
+        value: "inherited_roles"
       - key: PORT
         value: 10000
       - key: HASURA_GRAPHQL_ADMIN_SECRET
